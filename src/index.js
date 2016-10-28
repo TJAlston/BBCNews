@@ -5,7 +5,8 @@ import { Router, Route, browserHistory } from 'react-router'
 import {
   App,
   topBar,
-  secondBar
+  secondBar,
+  thirdBar
 } from './components'
 
 import './styles/screen.sass'
@@ -15,6 +16,7 @@ const router = (
       <Route path='/' component={App} />
       <Route path='/topBar' component={topBar} />
       <Route path='/secondBar' component={secondBar} />
+      <Route path='/thirdBar' component={thirdBar} />
   </Router>
 )
 
