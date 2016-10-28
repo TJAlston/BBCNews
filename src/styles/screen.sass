@@ -1,0 +1,41 @@
+@import 'utility'
+
+$base-text-size: 16px
+$base-font-family: sans-serif
+
+html
+  text-size-adjust: 100%
+
+body
+  @include font-smoothing(on)
+  font: $base-text-size / 1 $base-font-family
+  margin: 0
+
+.topBar
+  width: 100%
+  height: 70px
+  background-color: #710002
+
+.fixedWidth
+  width: 900px
+  margin: 0 auto
+
+.logo
+  padding-top: 8px
+  display: flex
+  justify-content: flex-start
+
+.break
+  border-right: 1px solid #FFFBFF
+  padding-right: 50px
+
+#signLogo
+  padding-top: 8px
+
+.signIn
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #FFFBFF
+  font-weight: bold
+  font-size: 15px
