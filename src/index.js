@@ -1,5 +1,21 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
+import { Router, Route, browserHistory } from 'react-router'
 
-render(<App />, document.getElementById('root'))
+import {
+  App,
+  topBar,
+  secondBar
+} from './components'
+
+import './styles/screen.sass'
+
+const router = (
+  <Router history={browserHistory}>
+      <Route path='/' component={App} />
+      <Route path='/topBar' component={topBar} />
+      <Route path='/secondBar' component={secondBar} />
+  </Router>
+)
+
+render(router, document.getElementById('root'))
