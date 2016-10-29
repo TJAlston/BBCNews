@@ -5,6 +5,7 @@ import SecondBar from './secondBar'
 import ThirdBar from './thirdBar'
 import Article1 from './Article1'
 import Article2 from './Article2'
+import Watch from './Watch'
 
 class App extends Component {
 
@@ -14,11 +15,18 @@ class App extends Component {
       <SecondBar />
       <ThirdBar />
       <div className='fixedWidth'>
-        <div className='update'>
-        <span className='date'>27 October 2016</span> Last Updated at 14:13
+        <div id='flex'>
+          <div className='column1'>
+            <div className='update'>
+            <span className='date'>27 October 2016</span> Last Updated at 14:13
+            </div>
+            <Article1 />
+            <Article2 />
+          </div>
+          <div className='column2'>
+            <Watch />
+          </div>
         </div>
-      <Article1 />
-      <Article2 />
       </div>
     </div>
   }
