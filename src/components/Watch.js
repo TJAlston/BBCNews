@@ -6,7 +6,7 @@ class Watch extends Component {
   render () {
     return <div>
     <div className='listen'>
-      <h4>Watch / Listen</h4>
+      <h4>Watch/Listen</h4>
     </div>
   </div>
   }

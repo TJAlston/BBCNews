@@ -6,6 +6,7 @@ import ThirdBar from './thirdBar'
 import Article1 from './Article1'
 import Article2 from './Article2'
 import Watch from './Watch'
+import Features from './Features'
 
 class App extends Component {
 
@@ -20,11 +21,13 @@ class App extends Component {
             <div className='update'>
             <span className='date'>27 October 2016</span> Last Updated at 14:13
             </div>
+            <br />
             <Article1 />
             <Article2 />
           </div>
           <div className='column2'>
             <Watch />
+            <Features />
           </div>
         </div>
       </div>

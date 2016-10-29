@@ -20,8 +20,9 @@ h1
   font-family: helvetica
 
 h2
-  font-size: 20px
+  font-size: 19px
   color: #29507D
+  margin-bottom: -10px
 
 h2:hover
   text-decoration: underline
@@ -32,7 +33,12 @@ h3
   font-weight: lighter
 
 h4
-  font-size: 25px
+  font-size: 22px
+  padding-top: 5px
+  font-family: arial
+  padding-left: 5px
+  word-spacing: normal
+  color: rgb(82, 88, 92)
 
 h5
   display: flex
@@ -43,6 +49,7 @@ h5
   font-size: 35px
   color: #29507D
   text-decoration: none
+  font-weight: bolder
 
 .homeFont:hover
   color: #29507D
@@ -277,15 +284,16 @@ h5
 
 .mainPollution
   display: flex
+  margin-top: 20px
   flex-direction: row
-  width: 670px
+  width: 660px
   text-align: justify
   justify-content: space-between
 
-.england
+.movie
   margin-right: 20px
   background-image: url('../images/england.png')
-  height: 250px
+  height: 235px
   width: 1400px
   background-size: cover
 
@@ -304,8 +312,10 @@ h5
 .playHeader
   display: flex
   flex-direction: row
-  align-items: center
-  margin-top: -15px
+
+#playHeader
+  display: flex
+  align-content: center
 
 .playLinks
   color: #29507d
@@ -313,6 +323,13 @@ h5
   width: 250px
   margin-left: 10px
   text-align: left
+  line-height: 17px
+
+a
+  text-decoration: none
+
+a:hover
+  text-decoration: underline
 
 .horizontal
   margin-top: 20px
@@ -335,12 +352,12 @@ h5
 
 .smallArticle
   margin-top: -20px
-  width: 365px
+  width: 340px
   margin-left: 20px
 
 .new
   color: red
-  font-size: 15px
+  font-size: 13px
 
 #flex
   display: flex
@@ -348,8 +365,39 @@ h5
 
 .listen
   height: 200px
-  width: 260px
+  width: 285px
+  margin-left: -25px
   margin-top: 75px
   background-color: #EEEDEF
-  color: rgb(82, 88, 92)
   padding-left: 5px
+
+.features
+  height: 450px
+  width: 285px
+  margin-left: -25px
+  background-color: #EEEDEF
+  padding-left: 5px
+
+.sideStory
+  width: 275px
+  height: 80px
+  border: 2px solid black
+  justify-content: center
+  display: flex
+  flex-direction: row
+  text-align: left
+  padding: 0
+  margin-left: 20px
+
+.sideSubject
+  width: 175px
+  margin-top: -20px
+
+.cigs
+  background-image: url('../images/cigs.png')
+  background-size: cover
+  height: 75px
+  width: 120px
+  margin-right: 10px
+  margin-left: -30px
+  justify-content: flex-start
