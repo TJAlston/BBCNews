@@ -13,7 +13,37 @@ body
   font-family: arial, helvetica, sans-serif
 
 p
-  color: black
+  color: rgba(40, 39, 41, 0.9)
+
+h1
+  font-size: 60px
+  font-family: helvetica
+
+h2
+  font-size: 20px
+  color: #29507D
+
+h2:hover
+  text-decoration: underline
+
+h3
+  color: white
+  font-size: 35px
+  font-weight: lighter
+
+h5
+  display: flex
+  padding-left: 650px
+  justify-content: flex-end
+
+.homeFont
+  font-size: 35px
+  color: #29507D
+  text-decoration: none
+
+.homeFont:hover
+  color: #29507D
+  text-decoration: underline
 
 .topBar
   width: 100vw
@@ -144,22 +174,8 @@ p
   background-position: right
   margin-top: -40px
 
-h1
-  font-size: 50px
-  font-family: helvetica
-
 .uk
   padding-left: 20px
-
-h3
-  color: white
-  font-size: 35px
-  font-weight: lighter
-
-h5
-  display: flex
-  padding-left: 690px
-  justify-content: flex-end
 
 .rss
   display: flex
@@ -189,18 +205,22 @@ h5
   font-size: 11px
   font-weight: bolder
   padding-left: 11px
-  border-left: 1px solid white
+  border-left: 1px solid red
   text-align: center
   justify-content: center
   margin-right: 0
 
 .bar:hover
-  background-color: white
-  color: #3B050F
+  background-color: #EDEDED
+  color: grey
   height: 25px
-  width: 70px
-  padding-top: 5px
+  width: 50px
+  padding-top: 7px
   padding-right: 10px
+  margin-left: 5px
+  margin-right: -10px
+  position: relative
+  border-style: none
 
 .barhome
   padding: 0
@@ -211,10 +231,110 @@ h5
   text-align: center
 
 .barhome:hover
-  background-color: white
-  color: #3B050F
+  background-color: #EDEDED
+  color: grey
   height: 25px
-  display: flex
+  width: 50px
   padding-top: 7px
-  padding-right: 3px
+  padding-left: 7px
   padding-right: 10px
+  margin-left: 5px
+  margin-right: -10px
+  position: relative
+  border-style: none
+  text-align: center
+
+.barlong
+  margin: 10px
+  font-size: 11px
+  font-weight: bolder
+  padding-left: 11px
+  border-left: 1px solid red
+  text-align: center
+  justify-content: center
+  margin-right: 0
+
+.barlong:hover
+  background-color: #EDEDED
+  color: grey
+  height: 25px
+  width: 95px
+  padding-top: 7px
+  padding-right: 10px
+  margin-left: 5px
+  margin-right: -10px
+  position: relative
+  border-style: none
+
+.update
+  margin-top: 20px
+
+.date
+  font-weight: bold
+
+.mainPollution
+  display: flex
+  flex-direction: row
+  width: 680px
+  text-align: justify
+  justify-content: space-between
+
+.england
+  margin-right: 20px
+  background-image: url('../images/england.png')
+  height: 275px
+  width: 1400px
+  background-size: cover
+
+.pollutionEngland
+  border-bottom: 1px solid grey
+  display: flex
+  flex-direction: column
+  width: 650px
+  height: 400px
+
+.pollutionSide
+  display: flex
+  flex-direction: column
+  margin-top: -15px
+
+.playHeader
+  display: flex
+  flex-direction: row
+  align-items: center
+  margin-top: -15px
+
+.playLinks
+  color: #29507d
+  font-size: 14px
+  width: 250px
+  margin-left: 10px
+  text-align: left
+
+.horizontal
+  margin-top: 20px
+  position: fixed
+  width: 640px
+  position: relative
+  justify-content: flex-start
+
+.breakingNews
+  background-image: url('../images/breakingnews.png')
+  background-size: cover
+  height: 200px
+  width: 300px
+
+.BBCDriver
+  margin-top: 25px
+  display: flex
+  flex-direction: row
+  width: 700px
+
+.smallArticle
+  margin-top: -20px
+  width: 375px
+  margin-left: 20px
+
+.new
+  color: red
+  font-size: 15px

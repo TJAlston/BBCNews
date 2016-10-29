@@ -18,9 +18,9 @@ class thirdBar extends Component {
           <div className='bar'>Politics</div>
           <div className='bar'>Health</div>
           <div className='bar'>Education</div>
-          <div className='bar'>Sci/Enviornment</div>
-          <div className='bar'>Technology</div>
-          <div className='bar'>Entertainment & Arts</div>
+          <div className='barlong'>Sci/Enviornment</div>
+          <div className='barlong'>Technology</div>
+          <div className='barlong'>Entertainment & Arts</div>
         </div>
       </div>
     </div>

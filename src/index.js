@@ -6,7 +6,8 @@ import {
   App,
   topBar,
   secondBar,
-  thirdBar
+  thirdBar,
+  Article1
 } from './components'
 
 import './styles/screen.sass'
@@ -17,6 +18,7 @@ const router = (
       <Route path='/topBar' component={topBar} />
       <Route path='/secondBar' component={secondBar} />
       <Route path='/thirdBar' component={thirdBar} />
+      <Route path='/Article1' component={Article1} />
   </Router>
 )
 

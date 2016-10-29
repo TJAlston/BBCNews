@@ -3,6 +3,8 @@ import '../styles/screen.sass'
 import TopBar from './topBar'
 import SecondBar from './secondBar'
 import ThirdBar from './thirdBar'
+import Article1 from './Article1'
+import Article2 from './Article2'
 
 class App extends Component {
 
@@ -11,8 +13,14 @@ class App extends Component {
       <TopBar />
       <SecondBar />
       <ThirdBar />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div className='fixedWidth'>
+        <div className='update'>
+        <span className='date'>27 October 2016</span> Last Updated at 14:13
+        </div>
+      <Article1 />
+      <Article2 />
       </div>
+    </div>
   }
 }
 
