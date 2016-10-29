@@ -12,6 +12,12 @@ class Watch extends Component {
         <div className='subtitle'>
         <span className='live'>LIVE</span> <span className='BBCNews'>BBC News Channel</span>
         </div>
+        <div className='subtitle'>
+        <span className='live'>LIVE</span> <span className='BBCNews'>Radio 5 Live</span>
+        </div>
+        <div className='subtitle2'>
+        <span className='live'>LIVE</span> <span className='BBCNews'>Osbourne questioned</span>
+        </div>
     </div>
   </div>
   }
